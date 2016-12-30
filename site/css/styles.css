@@ -23,9 +23,9 @@ body {
 }
 
 .navbar-brand h1 {
-	font-family: 'Oxygen';
+	font-family: Verdana;
 	color: #ffffff;
-	font-size: 1.5 	em;
+	font-size: 1 em;
 	/*text-transform: uppercase;*/
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
