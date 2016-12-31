@@ -40,7 +40,11 @@ body {
 
 #nav-list {
 	margin-top: 10px;
-	font-family: 'Comic Sans MS';
+	font-family: 'Comic Sans MS'; 
+}
+
+#nav-list a i {
+	font-size: 30px;
 }
 
 #nav-list a {
@@ -69,4 +73,60 @@ body {
 	color: #0000FF;
 	text-align: right;
 	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border:1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1199px) {
+	#logo-img {
+		background: url('../img/logo.jpg') no-repeat;
+		width: 100px;
+		height: 75px;
+		margin: 5px 5px 5px 0;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+
+	.navbar-brand p {
+		text-transform: uppercase;
+		font-size: .6em;
+		margin-top: 12px;
+	}
+
+	.navbar-brand p img {
+		height: 20px;
+	}
+
+	/*#collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span {
+		font-size: 1em;
+	}*/
 }
