@@ -1,6 +1,6 @@
 body {
 	font-size:16px;
-	background-color:#e5ffff;
+	background-color:#C0C0C0;
 	color:#87ceeb;
 	font-family: 'Oxygen', sans-serif;
 }
@@ -36,4 +36,37 @@ body {
 
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+	font-family: 'Comic Sans MS';
+}
+
+#nav-list a {
+	color: #ffffff;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+#phone {
+	margin-top: 5px;
+}
+
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+}
+
+#phone div {
+	color: #0000FF;
+	text-align: right;
+	padding-right: 15px;
 }
