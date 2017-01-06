@@ -86,8 +86,8 @@ and (max-device-width : 480px) {
 and (min-width : 321px) {
 /* STYLES GO HERE */
 	.logo-image{
-		width: 60px;
-		height: 60px;
+		width: 30px;
+		height: 30px;
 	}
 }
 
@@ -162,8 +162,8 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) {
 /* STYLES GO HERE */
 	.logo-image{
-		width: 60px;
-		height: 60px;
+		width: 30px;
+		height: 30px;
 	}
 }
 
@@ -174,8 +174,8 @@ and (max-device-width : 568px)
 and (orientation : landscape) {
 /* STYLES GO HERE */
 	.logo-image{
-		width: 60px;
-		height: 60px;
+		width: 3px;
+		height: 30px;
 	}
 }
 
@@ -186,7 +186,7 @@ and (max-device-width : 568px)
 and (orientation : portrait) {
 /* STYLES GO HERE */
 	.logo-image{
-		width: 60px;
-		height: 60px;
+		width: 30px;
+		height: 30px;
 	}
 }
