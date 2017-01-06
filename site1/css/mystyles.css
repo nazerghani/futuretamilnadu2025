@@ -37,6 +37,7 @@ body{
 	align:center;
 	padding: 50px 0px 0px 0px;
 	z-index: 0;
+	/*background-color: #F0FFFF;*/
 }
 
 .navbar-inverse{
@@ -67,3 +68,9 @@ body{
 	color: #000000;
 }
 
+@media(max-width: 699px) {
+	.logo-image{
+		width: 100%;
+		height:100%;
+	}
+}
